@@ -72,17 +72,17 @@ def jalan(z):
         time.sleep(0.01)
 
 logo =                                          """   
-\033[1;31m    $$$$$$\   $$$$$$\   $$$$$$\  
-\033[1;31m$$  __$$\ $$  __$$\ $$  __$$\ 
-\033[1;31m$$ /  \__|$$ /  $$ |$$ /  \__|
-\033[1;31m\$$$$$$\  $$$$$$$$ |\$$$$$$\  
-\033[1;31m \____$$\ $$  __$$ | \____$$\ 
-\033[1;31m$$\   $$ |$$ |  $$ |$$\   $$ |
-\033[1;31m\$$$$$$  |$$ |  $$ |\$$$$$$  |
-\033[1;31m \______/ \__|  \__| \______/                                                                                        
+\033[1;37m   $$$$$$\   $$$$$$\   $$$$$$\  
+\033[1;37m $$  __$$\ $$  __$$\ $$  __$$\ 
+\033[1;37m $$ /  \__|$$ /  $$ |$$ /  \__|
+\033[1;37m \$$$$$$\  $$$$$$$$ |\$$$$$$\  
+\033[1;37m  \____$$\ $$  __$$ | \____$$\ 
+\033[1;37m $$\   $$ |$$ |  $$ |$$\   $$ |
+\033[1;37m \$$$$$$  |$$ |  $$ |\$$$$$$  |
+\033[1;37m  \______/ \__|  \__| \______/                                                                                         
 \x1b[1;97m------------------------\x1b[1;97m------------------------
 \033[1;31m\033[1;37m Owner \x1b[1;97m : \033[1;37m           SuFyaN AhMaD
-\033[1;31m\033[1;37m Facebook\x1b[1;97m:  \033[1;37m          SuFyaN AhMaD
+\033[1;31m\033[1;37m Facebook\x1b[1;97m:  \033[1;37m          Abu SuFyaN
 \033[1;31m\033[1;37m WhatsApp\x1b[1;97m  : \033[1;37m           03489458276
 \033[1;37m------------------------\033[1;37m------------------------ """                                              
 
@@ -93,9 +93,9 @@ def hasil(OK,cp):
 	    print('\n\n  \x1b[1;97m Total OK : \x1b[1;97m %s  \x1b[1;97mSAS_OK.txt' % (H, P, str(len(ok))))
 	    print('  \x1b[1;97m Total CP :\x1b[1;97m   %s \x1b[1;97mSAS_CP.txt' % (H, P, str(len(cp))))
 	    input("\x1b[1;97mPress enter to back SAS Menu ")
-	    sufyan()
+	    sarfraz()
 
-def sufyan():
+def sarfraz():
     os.system('clear')
     print(logo)
     ipm = requests.get(url_ip).json()
@@ -103,25 +103,25 @@ def sufyan():
     IP = ipm['origin']
     print
     print(' [1] Start File Cloning')
-    print(' [2] Create File')
+    print(' [2] Create File [Best-Method]')
     print(' [E] exit ')
     print('')
-    _sufyan___ = input(' [?] Choose option : ')
-    if _sufyan___ in ('1', '01'):
-        __xxx__().sufyanx(id)
-    if _sufyan___ in ('2', '02'):
+    _sarfraz___ = input(' [?] Choose option : ')
+    if _sarfraz___ in ('1', '01'):
+        __xxx__().sarfrazx(id)
+    if _sarfraz___ in ('2', '02'):
         create_file()
-    if _sufyan___ in ('E', 'ee'):
+    if _sarfraz___ in ('E', 'ee'):
         pass
 
 
 class __xxx__:
     def __init__(self):
         self.id = []
-    def sufyanx(self,id):
+    def sarfrazx(self,id):
         os.system("clear")
         print(logo)
-        self.cnt = input('Put Your File Name : ')
+        self.cnt = input('Put File Name : ')
         self.id = open(self.cnt).read().splitlines()
         os.system('clear')
         print(logo)
@@ -131,7 +131,7 @@ class __xxx__:
             self.__pler__()
         else:
             print(' [!] Choose Correct One');
-            self.sufyanx(id)
+            self.sarfrazx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
         sys.stdout.write(f"\r \x1b[1;97m[SAS] {loop}|{len(self.id)} [ok][{len(ok)}] [cp][{len(cp)}] ")
@@ -225,7 +225,7 @@ class __xxx__:
 
     def __pler__(self):
         print('[1] Crack With Auto Pass ')
-        print('[2] Crack With Name + Pass')
+        print('[2] Crack With Name Digit Pass')
         chi = input('\n [?] Choose: ')
         if chi == '':
             print('\nSelect Correct One')
@@ -233,12 +233,12 @@ class __xxx__:
         elif chi in ('1', '01'):
             os.system("clear")
             print(logo)
-            print("\033[1;31m\rUse (airplane) mode before use\033[1;37m")
+            print("\033[1;31m\rUse (✈️) mode BeFore Use\033[1;37m")
             print(47*"-")
             print('\033[1;37m Total Auto file IDs : %s ' % len(self.id))
             print('\033[1;37m Cracking Started...')
             print(47*"-")
-            with sufyansas(max_workers=30) as sasworld:
+            with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = zsb.split('|')
@@ -267,12 +267,12 @@ class __xxx__:
             p4 = input('  Name + 4 : ')
             os.system("clear")
             print(logo)
-            print("\033[1;31m\rUse flight (airplane) mode before use\033[1;37m")
+            print("\033[1;31m\rUse (✈️) Mode BeFore Use\033[1;37m")
             print(47*"-")
             print('\033[1;37m Total IDs : %s ' % len(self.id))
             print('\033[1;37m Cracking Started...')
             print(47*"-")
-            with sufyansas(max_workers=30) as sasworld:
+            with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = zsb.split('|')
@@ -351,7 +351,7 @@ def manual():
     print('  Ids saved as: '+save_file)
     print(50*'-')
     input(' Press enter to back')
-    sufyan()
+    sarfraz()
     
 def auto():
     os.system('rm -rf temp*')
@@ -462,8 +462,8 @@ def auto():
     print('  File saved as: /sdcard/'+save_file)
     print(50*'-')
     input('  Press enter to back ')
-    sufyan()
+    safraz()
     
     
     
-sufyan()
+sarfraz()
